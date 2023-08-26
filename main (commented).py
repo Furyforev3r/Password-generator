@@ -19,4 +19,6 @@ def Generator():
         Generator() # call the function again
     else: # if the user doesn't want to generate another password
         print("Goodbye!") # print goodbye
-Generator() # call the function
+
+if __name__ == "__main__":
+    Generator() # call the function
