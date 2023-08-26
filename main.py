@@ -19,4 +19,6 @@ def Generator():
         Generator()
     else:
         print("Goodbye!")
-Generator()
+
+if __name__ == "__main__":
+        Generator()
